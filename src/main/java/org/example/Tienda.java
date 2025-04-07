@@ -21,10 +21,17 @@ public class Tienda {
     }
 
     //métodos
-    public void registrarCliente() {
+    public void registrarCliente(Cliente c) {
+        this.clientes.add(c);
         // Implementar el registro de un cliente
     }
-    public void eliminarCliente() {
+    public void eliminarCliente(String nombre) {
+        for (Cliente cliente : clientes) {
+            if (cliente.getNombre().equals(nombre)) {
+                this.clientes.remove(cliente);
+                break;
+            }
+        }
         // Implementar la eliminación de un cliente
     }
     public void registrarDisp(Dispositivo dispositivo) {
