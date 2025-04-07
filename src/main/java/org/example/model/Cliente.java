@@ -1,4 +1,4 @@
-package StickyFingers.src.main.java.org.example.model;
+package org.example.model;
 
 public class Cliente {
 
@@ -8,6 +8,15 @@ public class Cliente {
     private String telefono;
     private String estadoCiv;
     private String ciudad;
+
+    public Cliente(String apellido, String ciudad, String correo, String estadoCiv, String telefono, String nombre) {
+        this.apellido = apellido;
+        this.ciudad = ciudad;
+        this.correo = correo;
+        this.estadoCiv = estadoCiv;
+        this.telefono = telefono;
+        this.nombre = nombre;
+    }
 
     public String getNombre() {return nombre;}
     public String getApellido() {return apellido;}
