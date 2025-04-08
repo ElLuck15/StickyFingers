@@ -35,6 +35,7 @@ public class Pantalla {
         this.anio = anio;
     }
 
+    //Información Técnica del producto
     @Override
     public String toString() {
         return "Pantalla:" +"\n"+

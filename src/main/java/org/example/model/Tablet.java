@@ -29,9 +29,10 @@ public class Tablet extends Dispositivo{
         this.res = res;
     }
 
+    //Información Técnica del producto
     @Override
     public String toString() {
-        return super.toString() + "\n" +
+        return super.toString() +
                 "Resolución de pantalla= " + res + "\n"+
                 "lista= " + Arrays.toString(lista) +"\n";
     }

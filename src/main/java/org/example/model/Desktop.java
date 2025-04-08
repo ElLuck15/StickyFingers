@@ -49,6 +49,7 @@ public class Desktop extends Dispositivo {
         return pantalla;
     }
 
+    //Información Técnica del producto
     @Override
     public String toString() {
         return super.toString()+

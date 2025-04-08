@@ -15,5 +15,7 @@ Factura puede contener ninguno o un Cliente y siempre una Tienda.
 Como disclaimer, utilizamos el gestor de datos proporcionado por el ayudante por ende se sobre entiende que está aplicado a la tienda.
 --
 # Capturas del funcionamiento del programa
+Información técnica de los productos
 ![Diagrama uml](assets/img.png)
-aquí irán las capturas del funcionamiento del programa
+Funciones cambio de dirección, agregar cliente, agregar productos al carro, y mostrar en pantalla el carro.
+![Diagrama uml](assets/img_1.png)

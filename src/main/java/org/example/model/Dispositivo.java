@@ -87,9 +87,10 @@ public abstract class Dispositivo {
         return stock;
     }
 
+    //Información Técnica del producto
     @Override
     public String toString() {
-        return "Tabla de especificaciones" +"\n" +
+        return "\n"+"Tabla de especificaciones"+
                 "Marca= " + marca + "\n" +
                 "Memoria Ram= " + memoriaRam + "\n"+
                 "Memoria de Almacenamiento= " + memoriaAlmac + "\n" +

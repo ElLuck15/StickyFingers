@@ -38,9 +38,10 @@ public class Notebook extends Dispositivo{
         this.batería = batería;
     }
 
+    //Información Técnica del producto
     @Override
     public String toString() {
-        return  super.toString() +"\n"+
+        return  super.toString() +
                 "Resolución de pantalla= " + res + "\n" +
                 "Tipo de teclado= " + tipoTeclado + "\n" +
                 "Batería=" + batería + "\n";
